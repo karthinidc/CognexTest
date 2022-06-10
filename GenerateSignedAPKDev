@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+# cd android && ./gradlew assembleRelease -x bundleReleaseJsAndAssets
+
+
+############### DEVLOPMENT RELEASE BUILD --- "com.InnovaZones.RNARTreeQAIZHips" ###############
+cd android && ./gradlew assembleDevRelease
+
+open $PWD/app/build/outputs/apk/dev/release
+
+
+echo                                                                                
+echo                                                                                
+echo                                                                                
+echo "            /**********************************************************/"
+echo "                    Install app-release.apk on android device           "
+echo "                                        OR                              "
+echo "                                publish to play store                   "
+echo "            /**********************************************************/"
+echo                                                                                
+echo                                                                                
+echo                                                                                
+
+
+ 
+########## To run the Android debug mode with Application ID ###########
+# react-native run-android --variant=devDebug --appIdSuffix=dev
+
+# react-native run-android --variant=stageDebug --appIdSuffix=stage
+
+# react-native run-android --variant=prodDebug --appIdSuffix=prod

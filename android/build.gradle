@@ -1,0 +1,88 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "30.0.2"
+        minSdkVersion = 25
+        compileSdkVersion = 30
+        targetSdkVersion = 30
+        supportLibVersion = "30.0.2"
+        googlePlayServicesVersion = "15.0.1"
+    }
+
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+//        maven {
+//            url "http://jcenter.bintray.com"
+//            name 'Google'
+//        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.3'
+        classpath 'com.google.gms:google-services:4.0.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+subprojects {
+
+    afterEvaluate { subproject ->
+        if ((subproject.plugins.hasPlugin('android') ||
+                subproject.plugins.hasPlugin('android-library'))) {
+            android {
+                buildToolsVersion rootProject.ext.buildToolsVersion
+                compileSdkVersion rootProject.ext.compileSdkVersion
+            }
+        }
+    }
+}
+
+
+allprojects {
+    repositories {
+        // Add jitpack repository (added by react-native-spinkit)
+        flatDir {
+            dirs "$rootDir/libs"
+        }
+
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        maven { url "https://jitpack.io" }
+        maven {
+            url "https://bin.socketmobile.com/repo/snapshots"
+        }
+        // maven { url "http://tokbox.bintray.com/maven" }
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            maven { url "$rootDir/../node_modules/react-native/android" }        }
+}
+
+
+repositories {
+    google()
+    mavenCentral()
+    repositories {
+        flatDir {
+            dirs "$rootDir/libs"
+        }
+    }
+}
+configurations.all {
+    resolutionStrategy {
+        force 'com.google.android.gms:play-services-gcm:16.1.0'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

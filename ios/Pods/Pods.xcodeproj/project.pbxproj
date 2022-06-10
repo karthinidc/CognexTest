@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */,
+			);
+			name = AppCenterReactNativeShared;
+		};
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08E72DB3BE35EFFFD5D23750A4EB8BBF /* SktCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 210607D729F241735EC72EA64C1701D7 /* SktCaptureHelper.m */; };
+		16328C986D5CC776ECBFDD9FC4F4A2C8 /* SktCaptureDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D04B18B3E9F572BF1E53530BFBDD40 /* SktCaptureDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19BD2010797B1E298AECE4BCF92019F7 /* Pods-InnovaZones-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09226FF6B7DD5E941027B765BDEB068 /* Pods-InnovaZones-dummy.m */; };
+		240071B11C910E1AF6C6FD639F14E9E4 /* SktCapturePropertyIds.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEA2B76B8A2D1A3F27DCCA6E12BF326 /* SktCapturePropertyIds.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73955043C8BB933D141BF389FD1C200E /* SktCaptureVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F369B82F2113F0AC4A8E4983BFA0254 /* SktCaptureVersion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		752236ED998E378BD0BF832652B433A9 /* SktCaptureProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = F325FBC5E5F81584F25CB64746531B34 /* SktCaptureProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77C4F92A57EFE69D6A93ED339AC8D507 /* SKTCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D2CE6F92ED963C225D92769B4D153D /* SKTCapture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82FC002F2EB3717B2BB899DE7C4CA100 /* SktCaptureHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FA26A714650FC9DC7D87F3E8253474 /* SktCaptureHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4F079DAE81C30DD4E75452527015AE6 /* SKTCaptureObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A03B7DB30042B6536327B0FAF6C48 /* SKTCaptureObjC-dummy.m */; };
+		CFB6A0B2D807DFD1481001AD6D8D88AD /* SktCaptureEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBE17A2E16D057544590322A072B87B /* SktCaptureEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD204D7780A32D315F7D04C0A9AA4D8D /* SktCaptureErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3288133DE96D14AFC57CB208C62D5C /* SktCaptureErrors.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46C9D9EB561A7E07F31C12DED9BA20D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		79FDF7570C276B07E969135C44FA8BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD32458A161AF8E4BA58B4310701AB3;
+			remoteInfo = AppCenterReactNativeShared;
+		};
+		D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		DE19E73643657A98DD6D28C1F877CB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E173A3CCEECCC46F8585D7CB827D9DCC;
+			remoteInfo = SKTCaptureObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016AA1D72BEC22742314F5FB940BF011 /* AppCenterReactNativeShared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterReactNativeShared.debug.xcconfig; sourceTree = "<group>"; };
+		0C553E2ACB7766D0068B2701C0700216 /* Pods-InnovaZones-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InnovaZones-resources.sh"; sourceTree = "<group>"; };
+		14D04B18B3E9F572BF1E53530BFBDD40 /* SktCaptureDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureDataSource.h; sourceTree = "<group>"; };
+		182A35A7D5048D504740E3B659390BA9 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		1C09CE562EF038F86ECA1616E62023B7 /* SKTCaptureObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTCaptureObjC-prefix.pch"; sourceTree = "<group>"; };
+		210607D729F241735EC72EA64C1701D7 /* SktCaptureHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SktCaptureHelper.m; sourceTree = "<group>"; };
+		2FBE17A2E16D057544590322A072B87B /* SktCaptureEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureEvent.h; sourceTree = "<group>"; };
+		300A03B7DB30042B6536327B0FAF6C48 /* SKTCaptureObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKTCaptureObjC-dummy.m"; sourceTree = "<group>"; };
+		32D2FE91F0E97FDAF3B341A205CA83F1 /* Pods-InnovaZones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InnovaZones.debug.xcconfig"; sourceTree = "<group>"; };
+		3DAA755EF412B96D66437B044B6064DC /* Pods-InnovaZones-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InnovaZones-acknowledgements.plist"; sourceTree = "<group>"; };
+		41FAE417CF922600C5283CDEE217C825 /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
+		468426A14510D92B23E2916E33B339D0 /* Pods-InnovaZones-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InnovaZones-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F369B82F2113F0AC4A8E4983BFA0254 /* SktCaptureVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureVersion.h; sourceTree = "<group>"; };
+		6E3B2CF5B2EFCE88CE29422052D4235F /* socketmobilepublickey.pem */ = {isa = PBXFileReference; includeInIndex = 1; path = socketmobilepublickey.pem; sourceTree = "<group>"; };
+		719CFF6AE5EF38DB14D26B4C5D72942E /* libSKTCaptureObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSKTCaptureObjC.a; path = libSKTCaptureObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA9FBEBE519F57482E19F339BA9AC68 /* Pods-InnovaZones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InnovaZones.release.xcconfig"; sourceTree = "<group>"; };
+		84CC97A48B2F4658D19C5199A76F589D /* SKTCaptureObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTCaptureObjC.release.xcconfig; sourceTree = "<group>"; };
+		97448251FA1523E870CCB64FC4F487CC /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		9BA358E33D578E9B022BFE6AB1C4CD14 /* AppCenterReactNativeShared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterReactNativeShared.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6B95A6D9636D9F0BBE136A353224979 /* SKTCaptureObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTCaptureObjC.debug.xcconfig; sourceTree = "<group>"; };
+		C0E921B0B33C256EF694A2C6D7935797 /* libCaptureServiceDirect.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCaptureServiceDirect.a; path = lib/libCaptureServiceDirect.a; sourceTree = "<group>"; };
+		C19A39003AF5302F6520931C4A792012 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		D1486682672021779E55B849A0E35832 /* libPods-InnovaZones.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-InnovaZones.a"; path = "libPods-InnovaZones.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15BC4B6D3F73203B5E44E03E799E910 /* softScanBeep.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = softScanBeep.wav; sourceTree = "<group>"; };
+		D56D69FA941B912790AC95AECEBE5077 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		D5D2CE6F92ED963C225D92769B4D153D /* SKTCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKTCapture.h; sourceTree = "<group>"; };
+		F09226FF6B7DD5E941027B765BDEB068 /* Pods-InnovaZones-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InnovaZones-dummy.m"; sourceTree = "<group>"; };
+		F323B5B237E5F8BA9214B97354AEA221 /* libCaptureCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCaptureCore.a; path = lib/libCaptureCore.a; sourceTree = "<group>"; };
+		F325FBC5E5F81584F25CB64746531B34 /* SktCaptureProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureProperty.h; sourceTree = "<group>"; };
+		F9FA26A714650FC9DC7D87F3E8253474 /* SktCaptureHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureHelper.h; sourceTree = "<group>"; };
+		FA3288133DE96D14AFC57CB208C62D5C /* SktCaptureErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCaptureErrors.h; sourceTree = "<group>"; };
+		FAC9DEF97081E85DEE6E1ACA8B7F26CE /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
+		FDEA2B76B8A2D1A3F27DCCA6E12BF326 /* SktCapturePropertyIds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SktCapturePropertyIds.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4107001DD6938E0747F05376E9390099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADCFFBB1D3B22C64E80A89149D2A841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BF137EBD35C808FB68708DB27B9DDE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DAB222D101727CE0B49195A4757447D1 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		09C16EA86E6F61F0B376CD35ACC808E5 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2D077157CD87722DEA94B7C448F53785 /* Analytics */,
+				03BF137EBD35C808FB68708DB27B9DDE /* Core */,
+				4D5B57AE88B766F8CFD24ADA6B2B0513 /* Crashes */,
+				833DFDF421E68C30EF731C12EF9C6C38 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		2D077157CD87722DEA94B7C448F53785 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				8A0B3A4394292C8B5CB1CCE7AFCD821C /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		4D5B57AE88B766F8CFD24ADA6B2B0513 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				BB041F6C4D9C4B89AC88587F31FFED6D /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		5243DB49D31676214F0CAD8F917820FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1486682672021779E55B849A0E35832 /* libPods-InnovaZones.a */,
+				719CFF6AE5EF38DB14D26B4C5D72942E /* libSKTCaptureObjC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC657B85460793CA47504D72E3D1F15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F323B5B237E5F8BA9214B97354AEA221 /* libCaptureCore.a */,
+				C0E921B0B33C256EF694A2C6D7935797 /* libCaptureServiceDirect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		708237DC533448C5FAA46829C08D6FA9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF01C5B860A9BCA0B2086D1F5F8F2837 /* Pods-InnovaZones */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BD26254F75A0B51330CAF96D81F7248 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				E6E1931F7D9DABC8FE26FB621AF570D6 /* Frameworks */,
+				D5419FBB4DFB9420020FEDEB1516CF36 /* Support Files */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		7EA6B05C1ECB35CD267DBC668518B23C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B2CF5B2EFCE88CE29422052D4235F /* socketmobilepublickey.pem */,
+				D15BC4B6D3F73203B5E44E03E799E910 /* softScanBeep.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		833DFDF421E68C30EF731C12EF9C6C38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC9DEF97081E85DEE6E1ACA8B7F26CE /* AppCenter.debug.xcconfig */,
+				41FAE417CF922600C5283CDEE217C825 /* AppCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		88DB3F13209EA02C4EB6CAB84477186D /* SKTCaptureObjC */ = {
+			isa = PBXGroup;
+			children = (
+				D5D2CE6F92ED963C225D92769B4D153D /* SKTCapture.h */,
+				14D04B18B3E9F572BF1E53530BFBDD40 /* SktCaptureDataSource.h */,
+				FA3288133DE96D14AFC57CB208C62D5C /* SktCaptureErrors.h */,
+				2FBE17A2E16D057544590322A072B87B /* SktCaptureEvent.h */,
+				F9FA26A714650FC9DC7D87F3E8253474 /* SktCaptureHelper.h */,
+				210607D729F241735EC72EA64C1701D7 /* SktCaptureHelper.m */,
+				F325FBC5E5F81584F25CB64746531B34 /* SktCaptureProperty.h */,
+				FDEA2B76B8A2D1A3F27DCCA6E12BF326 /* SktCapturePropertyIds.h */,
+				4F369B82F2113F0AC4A8E4983BFA0254 /* SktCaptureVersion.h */,
+				6BC657B85460793CA47504D72E3D1F15 /* Frameworks */,
+				7EA6B05C1ECB35CD267DBC668518B23C /* Resources */,
+				B703BAA679522EA9ECAC45ED4C518786 /* Support Files */,
+			);
+			name = SKTCaptureObjC;
+			path = SKTCaptureObjC;
+			sourceTree = "<group>";
+		};
+		8A0B3A4394292C8B5CB1CCE7AFCD821C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97448251FA1523E870CCB64FC4F487CC /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B59B6F5FEB66D9D8AB18156C233E9DCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C16EA86E6F61F0B376CD35ACC808E5 /* AppCenter */,
+				7BD26254F75A0B51330CAF96D81F7248 /* AppCenterReactNativeShared */,
+				88DB3F13209EA02C4EB6CAB84477186D /* SKTCaptureObjC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B703BAA679522EA9ECAC45ED4C518786 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				300A03B7DB30042B6536327B0FAF6C48 /* SKTCaptureObjC-dummy.m */,
+				1C09CE562EF038F86ECA1616E62023B7 /* SKTCaptureObjC-prefix.pch */,
+				A6B95A6D9636D9F0BBE136A353224979 /* SKTCaptureObjC.debug.xcconfig */,
+				84CC97A48B2F4658D19C5199A76F589D /* SKTCaptureObjC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKTCaptureObjC";
+			sourceTree = "<group>";
+		};
+		BB041F6C4D9C4B89AC88587F31FFED6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182A35A7D5048D504740E3B659390BA9 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B59B6F5FEB66D9D8AB18156C233E9DCA /* Pods */,
+				5243DB49D31676214F0CAD8F917820FC /* Products */,
+				708237DC533448C5FAA46829C08D6FA9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5419FBB4DFB9420020FEDEB1516CF36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				016AA1D72BEC22742314F5FB940BF011 /* AppCenterReactNativeShared.debug.xcconfig */,
+				9BA358E33D578E9B022BFE6AB1C4CD14 /* AppCenterReactNativeShared.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterReactNativeShared";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB222D101727CE0B49195A4757447D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D56D69FA941B912790AC95AECEBE5077 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF01C5B860A9BCA0B2086D1F5F8F2837 /* Pods-InnovaZones */ = {
+			isa = PBXGroup;
+			children = (
+				468426A14510D92B23E2916E33B339D0 /* Pods-InnovaZones-acknowledgements.markdown */,
+				3DAA755EF412B96D66437B044B6064DC /* Pods-InnovaZones-acknowledgements.plist */,
+				F09226FF6B7DD5E941027B765BDEB068 /* Pods-InnovaZones-dummy.m */,
+				0C553E2ACB7766D0068B2701C0700216 /* Pods-InnovaZones-resources.sh */,
+				32D2FE91F0E97FDAF3B341A205CA83F1 /* Pods-InnovaZones.debug.xcconfig */,
+				7BA9FBEBE519F57482E19F339BA9AC68 /* Pods-InnovaZones.release.xcconfig */,
+			);
+			name = "Pods-InnovaZones";
+			path = "Target Support Files/Pods-InnovaZones";
+			sourceTree = "<group>";
+		};
+		E6E1931F7D9DABC8FE26FB621AF570D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19A39003AF5302F6520931C4A792012 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		314B7742F24CB88E776543E8E15D8DB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C4F92A57EFE69D6A93ED339AC8D507 /* SKTCapture.h in Headers */,
+				16328C986D5CC776ECBFDD9FC4F4A2C8 /* SktCaptureDataSource.h in Headers */,
+				DD204D7780A32D315F7D04C0A9AA4D8D /* SktCaptureErrors.h in Headers */,
+				CFB6A0B2D807DFD1481001AD6D8D88AD /* SktCaptureEvent.h in Headers */,
+				82FC002F2EB3717B2BB899DE7C4CA100 /* SktCaptureHelper.h in Headers */,
+				752236ED998E378BD0BF832652B433A9 /* SktCaptureProperty.h in Headers */,
+				240071B11C910E1AF6C6FD639F14E9E4 /* SktCapturePropertyIds.h in Headers */,
+				73955043C8BB933D141BF389FD1C200E /* SktCaptureVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65038B8FC10844E421BAFD835D4DB69B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B83601D01B820443844F29A9BA5D3435 /* Pods-InnovaZones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D1682529BF5A4FCDCCE3E891EEE3B0 /* Build configuration list for PBXNativeTarget "Pods-InnovaZones" */;
+			buildPhases = (
+				65038B8FC10844E421BAFD835D4DB69B /* Headers */,
+				363B011001B913EAB32B0461BBBD8281 /* Sources */,
+				5ADCFFBB1D3B22C64E80A89149D2A841 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B45340DD8ABB54B98E42E6260CB3C0 /* PBXTargetDependency */,
+				0082D1FDC172080DE06340838B943E57 /* PBXTargetDependency */,
+				D02A7F79BD4695D90CCAFCA3FE4497F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-InnovaZones";
+			productName = "Pods-InnovaZones";
+			productReference = D1486682672021779E55B849A0E35832 /* libPods-InnovaZones.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E173A3CCEECCC46F8585D7CB827D9DCC /* SKTCaptureObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6194B050D854CF06EFED6509CBA7DA2B /* Build configuration list for PBXNativeTarget "SKTCaptureObjC" */;
+			buildPhases = (
+				314B7742F24CB88E776543E8E15D8DB7 /* Headers */,
+				44F7EA0B197D2053C046229BF5AEF884 /* Sources */,
+				4107001DD6938E0747F05376E9390099 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKTCaptureObjC;
+			productName = SKTCaptureObjC;
+			productReference = 719CFF6AE5EF38DB14D26B4C5D72942E /* libSKTCaptureObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5243DB49D31676214F0CAD8F917820FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */,
+				B83601D01B820443844F29A9BA5D3435 /* Pods-InnovaZones */,
+				E173A3CCEECCC46F8585D7CB827D9DCC /* SKTCaptureObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363B011001B913EAB32B0461BBBD8281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BD2010797B1E298AECE4BCF92019F7 /* Pods-InnovaZones-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F7EA0B197D2053C046229BF5AEF884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E72DB3BE35EFFFD5D23750A4EB8BBF /* SktCaptureHelper.m in Sources */,
+				C4F079DAE81C30DD4E75452527015AE6 /* SKTCaptureObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */;
+		};
+		0082D1FDC172080DE06340838B943E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterReactNativeShared;
+			target = 2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */;
+			targetProxy = 79FDF7570C276B07E969135C44FA8BAA /* PBXContainerItemProxy */;
+		};
+		49B45340DD8ABB54B98E42E6260CB3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 46C9D9EB561A7E07F31C12DED9BA20D7 /* PBXContainerItemProxy */;
+		};
+		D02A7F79BD4695D90CCAFCA3FE4497F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKTCaptureObjC;
+			target = E173A3CCEECCC46F8585D7CB827D9DCC /* SKTCaptureObjC */;
+			targetProxy = DE19E73643657A98DD6D28C1F877CB18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A73DE6F8BD1A552DE5D56A08395B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CC97A48B2F4658D19C5199A76F589D /* SKTCaptureObjC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKTCaptureObjC/SKTCaptureObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SKTCaptureObjC;
+				PRODUCT_NAME = SKTCaptureObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3268C7ECF724FADE48E7CD1826C65B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D2FE91F0E97FDAF3B341A205CA83F1 /* Pods-InnovaZones.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32D678E1DC499A86A36F2A1715F29880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FAE417CF922600C5283CDEE217C825 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A92DD949F65AD82AD7F880BEA197408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B95A6D9636D9F0BBE136A353224979 /* SKTCaptureObjC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKTCaptureObjC/SKTCaptureObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SKTCaptureObjC;
+				PRODUCT_NAME = SKTCaptureObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47805FBC95F9F5BEEA5F7FF5530F268A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA358E33D578E9B022BFE6AB1C4CD14 /* AppCenterReactNativeShared.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3ECC73C1C6319F55F831BB50F536FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC9DEF97081E85DEE6E1ACA8B7F26CE /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B020F2D330BEF4F1FD22A2F956B19FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA9FBEBE519F57482E19F339BA9AC68 /* Pods-InnovaZones.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E377A286742A4FCDA01D0B3D3CE6F228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016AA1D72BEC22742314F5FB940BF011 /* AppCenterReactNativeShared.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28D1682529BF5A4FCDCCE3E891EEE3B0 /* Build configuration list for PBXNativeTarget "Pods-InnovaZones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3268C7ECF724FADE48E7CD1826C65B6B /* Debug */,
+				B020F2D330BEF4F1FD22A2F956B19FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6194B050D854CF06EFED6509CBA7DA2B /* Build configuration list for PBXNativeTarget "SKTCaptureObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A92DD949F65AD82AD7F880BEA197408 /* Debug */,
+				04A73DE6F8BD1A552DE5D56A08395B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E377A286742A4FCDA01D0B3D3CE6F228 /* Debug */,
+				47805FBC95F9F5BEEA5F7FF5530F268A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ECC73C1C6319F55F831BB50F536FF7 /* Debug */,
+				32D678E1DC499A86A36F2A1715F29880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

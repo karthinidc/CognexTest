@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+# cd android && ./gradlew assembleRelease -x bundleReleaseJsAndAssets
+
+############### PRODUCTION RELEASE BUILD --- "com.InnovaZones.TreeIZHips" ###############
+cd android && ./gradlew assembleProdRelease
+
+open $PWD/app/build/outputs/apk/prod/release
+
+
+echo                                                                                
+echo                                                                                
+echo                                                                                
+echo "            /**********************************************************/"
+echo "                    Install app-release.apk on android device           "
+echo "                                        OR                              "
+echo "                                publish to play store                   "
+echo "            /**********************************************************/"
+echo                                                                                
+echo                                                                                
+echo                                                                                

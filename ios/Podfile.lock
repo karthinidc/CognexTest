@@ -1,0 +1,30 @@
+PODS:
+  - AppCenter/Analytics (2.5.0):
+    - AppCenter/Core
+  - AppCenter/Core (2.5.0)
+  - AppCenter/Crashes (2.5.0):
+    - AppCenter/Core
+  - AppCenterReactNativeShared (2.5.0):
+    - AppCenter/Core (= 2.5.0)
+  - SKTCaptureObjC (1.1.384)
+
+DEPENDENCIES:
+  - AppCenter/Analytics (~> 2.5.0)
+  - AppCenter/Crashes (~> 2.5.0)
+  - AppCenterReactNativeShared (~> 2.5.0)
+  - SKTCaptureObjC (~> 1.1)
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+    - AppCenterReactNativeShared
+    - SKTCaptureObjC
+
+SPEC CHECKSUMS:
+  AppCenter: 637f180deefc61e8ab3f94223869ee50f61dabea
+  AppCenterReactNativeShared: 99e7f662ec66b1cb41306ecf357aabac35931c08
+  SKTCaptureObjC: 0755728518945189d3bebedb6b16bd2287da03cd
+
+PODFILE CHECKSUM: 2c30755f7463924a6517426f66d757aafaee8509
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'InnovaZones' do
+  pod 'AppCenter/Crashes', '~> 2.5.0'
+  pod 'AppCenter/Analytics', '~> 2.5.0'
+  pod 'AppCenterReactNativeShared', '~> 2.5.0'
+  pod 'SKTCaptureObjC', '~> 1.1'
+  
+  platform :ios, '9.0'
+#  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
+#  pod 'react-native-sqlite-storage', :path => '../node_modules/react-native-sqlite-storage'
+
+#  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+#  pod 'RNCPushNotificationIOS', :path => '../node_modules/@react-native-community/push-notification-ios'
+
+  pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
+#  pod 'RNCmbSdk', :path => '../node_modules/cmbsdk-react-native'
+
+end
+
+
